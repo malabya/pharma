@@ -364,3 +364,23 @@ section:last-child {
 .two-col-grid-item .icon svg path {
   fill: var(--color-secondary);
 }
+
+#contact {
+  padding-top: var(--section-spacing);
+  padding-bottom: var(--section-spacing);
+  background: #faf8f8;
+  border-top: 5px solid var(--color-primary);
+}
+
+#contact > .grid {
+  grid-gap: 7.5rem;
+}
+
+.grid-row .grid {
+  grid-template-columns: 1rem 1fr;
+}
+
+.footer-title {
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--color-secondary);
+}
